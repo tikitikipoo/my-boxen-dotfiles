@@ -63,3 +63,9 @@ if [ -f ~/.atode ]; then
 fi
 export PS1="[${PS_USER}${PS_SCREEN}@${PS_HOST}${PS_SSH}${PS_ATODE} ${PS_WORK}]\$ "
 
+
+export PATH=$PATH:$HOME/.phpenv/bin
+
+if [ `which phpenv` ]; then
+    eval "$(phpenv init -)"
+fi
