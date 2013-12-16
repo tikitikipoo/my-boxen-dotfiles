@@ -17,6 +17,17 @@ NeoBundle 'Shougo/vimproc'
 " syntastic
 NeoBundle 'scrooloose/syntastic'
 
+" colorscheme
+NeoBundle 'desert256.vim'
+NeoBundle 'molokai'
+NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+NeoBundle 'akiomik/itermcolors-vim'
+set t_Co=256
+colorscheme molokai
+"set background=dark
+"colorscheme solarized
+
 " encoding
 set termencoding=utf-8
 set encoding=utf-8
