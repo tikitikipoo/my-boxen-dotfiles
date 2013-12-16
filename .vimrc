@@ -31,6 +31,14 @@ set encoding=utf-8
 set fileencoding=utf-8
 scriptencoding utf-8
 
-filetype plugin indent on
+filetype plugin on
+filetype indent on
 
 NeoBundleCheck
+
+
+" 分割した設定ファイルをすべて読み込む
+set runtimepath+=~/.vim/
+runtime! userautoload/*.vim
+
+set guifont=Ricty:h16
